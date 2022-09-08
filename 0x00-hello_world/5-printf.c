@@ -1,9 +1,6 @@
 #include <stdio.h>
 /*
  * main - main function
- *
- * description : 'using printf'
- *
  * Return: 0
  */
 int main(void)
