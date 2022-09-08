@@ -2,7 +2,7 @@
 /*
  * main - main function
  *
- * description: 'using printf'
+ * description : 'using printf'
  *
  * Return: 0
  */
