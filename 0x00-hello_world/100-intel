@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o timi.c | tr '.c' '.s'
+gcc -S -masm=intel $CFILE 
