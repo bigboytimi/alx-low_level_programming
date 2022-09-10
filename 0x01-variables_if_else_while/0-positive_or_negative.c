@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main- Entry point
  *
- * Description - Using Control flows
+ * Description: 'Using Control flows'
  *
- * Return - 0
+ * Return: 0
 */
 int main(void)
 {
