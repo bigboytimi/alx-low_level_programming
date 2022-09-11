@@ -17,6 +17,6 @@ int main(void)
 		printf ("%d", b10);
 			b10++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
