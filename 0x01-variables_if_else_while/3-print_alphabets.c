@@ -9,14 +9,20 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	char lowerch = 'a';
+	char upperch = 'A';
+	char newupp;
+	char newlow;
 
-	while(ch <= 'z')
+for (lowerch = 'a'; lowerch <= 'z'; lowerch++)
 	{
-		putchar(ch);
-		ch++;
+	
+		newlow = &lowerch;
 	}
-
-	putchar('\n');
+for (upperch = 'A'; upperch <= 'Z'; upperch++)
+{
+	newupp = $upperch;
+}
+	putchar("%c%c\n", newlow, newupp);
 	return (0);
 }
