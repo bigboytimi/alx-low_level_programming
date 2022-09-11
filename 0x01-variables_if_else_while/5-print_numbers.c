@@ -14,7 +14,7 @@ int main(void)
 
 	while (b10 < 10)
 	{
-		printf ("%d", b10);
+		printf("%d", b10);
 			b10++;
 	}
 	putchar('\n');
