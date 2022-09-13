@@ -10,15 +10,15 @@
 int islower(int c)
 {
 	int i;
-	i = 'a';
 
-	while (i <= 'z')
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i == c)
 		{
 			return (1);
 		}
+		
 		return (0);
-		i++;
+	
 	}
 }
