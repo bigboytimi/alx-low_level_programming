@@ -10,17 +10,16 @@
  */
 int _isalpha(int c)
 {
-	int low = 'a';
-        int up = 'A';
-
-	while (low <= 'z' && up <= 'Z')
+	if ( c >= 'a' &&  c <= 'z')
 	{
-		if (low == c || up == c)
-		{
-			return (1);
-		}
+		return (1);
+	}
+	else if ( c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
 		return (0);
-		low++;
-		up++;
 	}
 }
