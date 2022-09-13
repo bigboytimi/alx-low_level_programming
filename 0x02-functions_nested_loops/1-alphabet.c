@@ -4,7 +4,7 @@
  *
  * Description: 'print lowercase alphabets'
  *
- * Return: 0 (Always zero)
+ * Return: void
  */
 void print_alphabet(void)
 {
