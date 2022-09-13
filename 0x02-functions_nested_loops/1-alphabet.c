@@ -4,9 +4,8 @@
  *
  * Description: 'print lowercase alphabets'
  *
- * Return: 0
+ * Return: 0 (Always zero)
  */
-
 void print_alphabet(void)
 {
 	char alphabet;
