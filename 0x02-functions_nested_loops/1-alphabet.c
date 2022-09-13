@@ -2,9 +2,9 @@
 /**
  * main - Entry point
  *
- * Description : 'print lowercase alphabets'
+ * Description: 'print lowercase alphabets'
  *
- * Return : void
+ * Return: void
  */
 void print_alphabet(void)
 {
