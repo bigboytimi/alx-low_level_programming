@@ -4,6 +4,8 @@
  *
  * Description: 'Lower or higher'
  *
+ * @c: the integer value it recieves
+ *
  * Return: 0 or 1
  */
 
