@@ -14,7 +14,7 @@ int islower(int c)
 
 	while (i <= 'z')
 	{
-		if (i = c)
+		if (i == c)
 		{
 			return (1);
 		}
@@ -22,6 +22,7 @@ int islower(int c)
 		{
 			return (0);
 		}
+
 		i++;
 	}
 }
