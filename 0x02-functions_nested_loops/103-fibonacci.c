@@ -2,7 +2,7 @@
 /*
  * main - Entry point
  *
- * Description: 'fibonacci sequence for even numbers'
+ * Description : 'fibonacci sequence'
  *
  * Return: 0
  */
