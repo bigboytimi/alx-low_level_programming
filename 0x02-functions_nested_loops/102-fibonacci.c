@@ -4,7 +4,7 @@
  *
  * Description : 'print fibonacci numbers'
  *
- * Return : Always 0.
+ * Return: 0.
  */
 int main(void)
 {
