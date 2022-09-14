@@ -4,9 +4,9 @@
  *
  * Description: 'add all natural number that are multiples of 3 and 5'
  *
- * @i: placeholder for value
+ * @i: valu
  *
- * @sum : value storage
+ * @sum : value
  *
  * Return: 0
  */
