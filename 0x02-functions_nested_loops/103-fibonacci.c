@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main - main entry
+ * main - Entry point
  *
- * Description: computes the fibonacci sequence
+ * Description: prints the sum of even-valued Fibonacci 
+ * terms not exceeding 4000000.
  *
- * Return : 0
+ * Return : 0.
  */
 int main(void)
 {
