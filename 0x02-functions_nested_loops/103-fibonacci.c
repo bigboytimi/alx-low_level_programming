@@ -9,7 +9,7 @@
 int main(void)
 {
 	float count;
-	unsigned long fib1 = 0, fib2 = 1;
+	unsigned long fib1 = 0, fib2 = 1, fibsum;
 
 	while(1)
 	{
