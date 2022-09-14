@@ -2,11 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: 'add all natural number that are multiples of 3 and 5'
- *
- * @i: valu
- *
- * @sum : value
+ * Description: 'add all natural number that are multiples'
  *
  * Return: 0
  */
