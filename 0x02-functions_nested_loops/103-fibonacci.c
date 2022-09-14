@@ -1,10 +1,8 @@
 #include <stdio.h>
-/*
- * main - main block
- *
- * Description: 'computes and prints even  number'
- *
- * Return: 0
+/**
+ * main - main entry
+ * Description: computes the fibonacci sequence
+ * Return : 0
  */
 int main(void)
 {
