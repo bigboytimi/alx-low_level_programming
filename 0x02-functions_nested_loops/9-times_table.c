@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * times_table- Entry point
  *
  * Description: 'print times table nine'
  *
@@ -22,11 +22,11 @@ void times_table(void)
 			_putchar(' ');
 
 
-			prod = num * mult
+			prod = num * mult;
 
 
 				if (prod <= 9) 
-					putchar(' ');
+					_putchar(' ');
 				else
 					_putchar((prod / 10) + '0');
 			
