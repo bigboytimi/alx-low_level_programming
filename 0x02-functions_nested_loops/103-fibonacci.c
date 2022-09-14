@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main - main entry
+ *
  * Description: computes the fibonacci sequence
+ *
  * Return : 0
  */
 int main(void)
