@@ -2,7 +2,7 @@
 /*
  * main - main block
  *
- * Description: computes and prints even  number < 4,000,000
+ * Description: 'computes and prints even  number'
  *
  * Return: 0
  */
