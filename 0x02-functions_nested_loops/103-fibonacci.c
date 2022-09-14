@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * Description: prints the sum of even-valued Fibonacci 
+ * Description: prints the sum of even-valued Fibonacci
  * terms not exceeding 4000000.
  *
- * Return : 0.
+ * Return: 0
  */
 int main(void)
 {
