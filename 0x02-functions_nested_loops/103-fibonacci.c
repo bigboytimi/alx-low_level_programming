@@ -1,9 +1,7 @@
 #include <stdio.h>
 /*
- * main - Entry point
- *
- * Description : 'fibonacci sequence'
- *
+ * main - Entry point*
+ * Description: computes and prints even  number < 4,000,000
  * Return: 0
  */
 int main(void)
