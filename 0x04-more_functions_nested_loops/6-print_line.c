@@ -1,9 +1,12 @@
 #include "main.h"
 /**
- * print_line - print line
- * @c: placeholder for value
+ * print_line - print lines
+ *
+ * @n: placeholder
+ *
  * Return: Always 0.
  */
+
 void print_line(int n)
 {
 	char c = '_';
@@ -17,4 +20,3 @@ void print_line(int n)
 
 	_putchar('\n');
 }
-
