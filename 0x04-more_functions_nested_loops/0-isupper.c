@@ -7,19 +7,10 @@
 
 int _isupper(int c)
 {
-	char upper = 'A';
 
-	while (upper <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		if (c == upper)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
-		upper++;
+		return (1);
 	}
 	return (0);
 }
