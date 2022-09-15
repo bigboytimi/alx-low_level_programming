@@ -19,6 +19,7 @@ int _isupper(int c)
 		{
 			return (0);
 		}
+		upper++;
 	}
 	return (0);
 }
