@@ -6,7 +6,7 @@
  * @s: starting address of memory to be filled
  * @b: value of byte to be filled
  * @n: number of bytes to be filled in the memory area
- * Return: s
+ * Return: memory of char
  */
 
 char *_memset(char *s, char b, unsigned int n)
