@@ -30,7 +30,7 @@ unsigned int _strspn(char *s, char *accept)
 				j++;
 			}
 		}
-		else 
+		else
 		{
 			return (counter);
 		}
