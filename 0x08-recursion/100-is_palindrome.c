@@ -1,6 +1,8 @@
 #include "main.h"
+
 /**
  * _strlen_recursion - returns the length of string
+ *
  * @s: string to check
  *
  * Return: length of s
@@ -28,7 +30,7 @@ int checkpal(char *str, int i, int j)
 		return (1);
 	if (str[i] != str[j])
 		return (0);
-	return (checkpal(str, i + j, j - 1));
+	return (checkpal(str, i + 1, j - 1));
 }
 
 /**
