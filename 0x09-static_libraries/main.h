@@ -1,12 +1,5 @@
 #ifndef MAIN_H
-#define MAIN__H
-
-/*
- * File: main.h
- * Auth: Timi
- * Desc: Header file containing the prototypes of all functions
- * included in the static library libholberton.a.
- */
+#define MAIN_H
 
 int _putchar(char c);
 int _islower(int c);
