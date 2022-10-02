@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-/*
+/**
  * main - Entry point
  *
  * @argc: argument count
