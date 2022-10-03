@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	/* check if str contains a value */
 	if (str == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 	/* get size of the str */
 	while (str[i] != '\0')
