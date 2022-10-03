@@ -25,7 +25,7 @@ char *_strdup(char *str)
 	i++;
 
 	/* allocate memory and assign it to pointer s */
-	s = malloc(sizeof(*s) * i - 1);
+	s = malloc(sizeof(*str) * i - 1);
 
 	if (*s == 0)
 	{
