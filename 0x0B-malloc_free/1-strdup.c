@@ -22,10 +22,10 @@ char *_strdup(char *str)
 	}
 	/* get size of the str */
 	while (str[i] != '\0')
-	i++;
+		i++;
 
 	/* allocate memory and assign it to pointer s */
-	s = malloc(sizeof(*str) * i - 1);
+	s = malloc(sizeof(*s) * i - 1);
 
 	if (s == NULL)
 	{
