@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	unsigned int j = 0;
 
 	/* check if str contains a value */
-	if (*str == 0)
+	if (str == NULL)
 	{
 		return (0);
 	}
@@ -27,9 +27,9 @@ char *_strdup(char *str)
 	/* allocate memory and assign it to pointer s */
 	s = malloc(sizeof(*str) * i - 1);
 
-	if (*s == 0)
+	if (s == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	while (j < i)
