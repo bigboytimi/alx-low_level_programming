@@ -14,7 +14,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *concatstr;
-	int arg, byte, i, size;
+	int arg, byte, i, size = ac;
 
 	if (ac == 0 || av == NULL)
 	{
