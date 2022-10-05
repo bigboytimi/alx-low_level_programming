@@ -40,7 +40,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (heightnum = 0; heightnum < height; heightnum++)
 	{
-		for (widthnum = 0; widthnum < width; heightnum++)
+		for (widthnum = 0; widthnum < width; widthnum++)
 			arr2d[heightnum][widthnum] = 0;
 	}
 
