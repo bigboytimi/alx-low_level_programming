@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
- * alloc_grid - return  pointer to a 2D array
+ * alloc_grid - returns a pointer to a 2d array
  *
  * width: width/row of the array
  *
@@ -11,6 +10,7 @@
  * Return: if width <= 0, height <= 0, or function fails, return NULL.
  *         Otherwise, return a pointer to the 2D array.
  */
+
 int **alloc_grid(int width, int height)
 {
 	int **arr2d;
