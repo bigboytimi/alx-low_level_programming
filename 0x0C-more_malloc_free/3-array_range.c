@@ -13,7 +13,7 @@
  *         Pointer, on success
  */
 
-int *array_range(int min, int max);
+int *array_range(int min, int max)
 {
 	int *arrint;
 	int size;
@@ -32,5 +32,5 @@ int *array_range(int min, int max);
 	for (i = 0; i < size; i++)
 		arrint[i] = min++;
 
-	return(arrint);
-}	
+	return (arrint);
+}
