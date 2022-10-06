@@ -18,7 +18,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *strcon;
 
-	unsigned int s1len = n, i, j, k;
+	unsigned int s1len, s2len, i, j, k;
 
 	if (s1 == NULL)
 	{
@@ -37,10 +37,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (strcon == NULL)
 		return (NULL);
 
+	s1len = 0;
+	
 	j = 0;
 	while (s1[j])
 	{
-		strcon[s1len] = s1[j];
+		strcon[s1len++] = s1[j];
 		j++;
 	}
 
