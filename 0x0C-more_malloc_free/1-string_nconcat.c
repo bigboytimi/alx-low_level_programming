@@ -38,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	s1len = 0;
-	
+
 	j = 0;
 	while (s1[j])
 	{
