@@ -15,6 +15,7 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *arrmem;
+	char *convert;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
@@ -25,9 +26,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (arrmem == NULL)
 		return (NULL);
 
+	convert = arrmem;
+
 	for (i = 0; i < (nmemb * size); i++)
 	{
-		arrmem[i] = 0;
+		convert[i] = '\0';
 	}
 
 	return (arrmem);
