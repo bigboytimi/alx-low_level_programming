@@ -2,6 +2,29 @@
 #include <stdlib.h>
 #include "dog.h"
 
+
+/**
+ * _strcopy - Copies a string from src to dest
+ *
+ * @dest: The destination of copied string
+ *
+ * @src: The source of copied sting
+ *
+ * Return: The pointer to dest
+ */
+
+char *_strcopy(char *dest, char *src)
+{
+	int i;
+
+	for (i = 0; src[i]; i++)
+		dest[i] = src[i];
+
+	dest[i] = '\0';
+
+	return (dest);
+}
+
 /**
  * new_dog - function entry point
  *
@@ -19,7 +42,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggy;
-	unsigned int i, j, count;
+	unsigned int i, j;
 
 	if (name == NULL || owner == NULL)
 		return (NULL);
@@ -39,8 +62,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggy);
 		return (NULL);
 	}
-	for (count = 0; count < i; count++)
-		doggy->name[count] = name[count];
 
 	doggy->age = age;
 
@@ -55,7 +76,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggy->name);
 		return (NULL);
 	}
-	for (count = 0; count < j; count++)
-		doggy->owner[count] = owner[count];
+
+	doggy->name = _strcopy(doggy->name, name);
+	doggy->age = age;
+	doggy->owner = _strcopy(doggy->owner, owner);
 	return (doggy);
 }
