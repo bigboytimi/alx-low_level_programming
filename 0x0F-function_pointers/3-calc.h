@@ -1,3 +1,5 @@
+#ifndef CALC_H
+#define CALC_H
 int op_add(int a, int b);
 
 int op_sub(int a, int b);
@@ -22,3 +24,4 @@ typedef struct op
 
 
 int (*get_op_func(char *s))(int, int);
+#endif
