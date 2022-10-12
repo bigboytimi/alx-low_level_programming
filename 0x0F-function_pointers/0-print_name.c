@@ -9,26 +9,14 @@
  *
  * @f: pointer to a function
  *
- * Return: 0
+ * Return: void
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-	int i, j;
+	if (f == NULL || name == NULL)
+		return;
 
-	f = &print_name_as_is;
+	f(name);
 
-	for (i = 0; name[i] != '\0'; i++)
-	{
-		f[i] = name[i];
-	}
-
-	f = &print_name_uppercase;
-
-	for (j = 0; name[j] != '\0'; j++)
-	{
-		f[j] = name[j];
-	}
-
-	return;
 }	
