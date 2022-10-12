@@ -22,6 +22,3 @@ typedef struct op
 
 
 int (*get_op_func(char *s))(int, int);
-
-
-int main(int argc, char *argv[]);
