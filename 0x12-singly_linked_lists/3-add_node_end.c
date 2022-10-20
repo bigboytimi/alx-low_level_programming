@@ -11,7 +11,7 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	size_t l;
+	size_t l = 0;
 
 	list_t *end_node;
 
