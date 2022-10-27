@@ -11,5 +11,5 @@ int get_endianess(void)
 	unsigned int i = 1;
 	char *c = (char *) &i;
 
-	return (*c)
+	return (*c);
 }
