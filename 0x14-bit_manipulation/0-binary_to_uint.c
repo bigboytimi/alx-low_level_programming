@@ -4,9 +4,9 @@
 /**
  * binary_to_uint - convert binary number to uint
  *
- * @b: number 
+ * @b: number
  *
- * Return: the converted number or 0 
+ * Return: the converted number or 0
  *         if the chars contain num that
  *         is not 1 or 0
  */
