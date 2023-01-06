@@ -7,13 +7,13 @@
  * @size: The size of the array/hash table
  *
  * Return: If an error occurs - NULL
- * 	Otherwise - a pointer to the new hash table
+ * Otherwise - a pointer to the new hash table
  */
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	/* allocate some memory for a one empty hashtable */
-	hash_table_t* ht = malloc(sizeof(hash_table_t));
+	hash_table_t *ht = malloc(sizeof(hash_table_t));
 
 	unsigned long int i;
 
@@ -22,7 +22,8 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 	/* assign a fixed size to the created hashtable */
 	ht->size = size;
-	/** create memory space for the hashtable that would contain each
+	/**
+	 * create memory space for the hashtable that would contain each
 	 * node according to the assigned size
 	*/
 	ht->array = malloc(sizeof(hash_node_t *) * size);
