@@ -5,6 +5,7 @@
 
 /**
  * main - check the code for
+ *
  * Return: Always EXIT_SUCCESS.
  */
 int main(void)
