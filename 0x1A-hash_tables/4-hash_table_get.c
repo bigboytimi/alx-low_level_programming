@@ -20,13 +20,8 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	node = ht->array[index];
 
-	while (node != NULL)
-	{
-		if (node->key == key)
-		{
-			return (node->value);
-		}
+	while (node && strcmp(node->key, key) != 0)
 		node = node->next;
-	}
-	return (NULL);
+
+	return ((node == NULL) ? NULL : node->value);
 }
